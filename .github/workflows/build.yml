@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - pelican
+  pull_request:
+    branches:
+      - pelican
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: true
+    
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.5'
+    
+    - name: Install dependencies
+      run: |
+        python --version
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Build site
+      run: |
+        make publish

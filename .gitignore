@@ -14,3 +14,17 @@ Thumbs.db
 
 # Cache files
 cache/*
+
+# Pycharm
+.idea
+
+# Virtualenv
+venv/
+
+MacOS Files
+.DS_Store
+
+# alias
+src
+
+.env

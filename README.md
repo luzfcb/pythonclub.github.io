@@ -1,6 +1,6 @@
 [pythonclub.com.br][0]
 ======================
-Duvidas sobre este projeto, deixe sua mensagem em [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pythonclub/pythonclub.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Duvidas sobre este projeto, deixe sua mensagem em [![Gitter](https://badges.gitter.im/pythonclub/pythonclub.github.io.svg)](https://gitter.im/pythonclub/pythonclub.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Blog colaborativo sobre tecnologias que envolvam a linguagem Python
 
@@ -11,7 +11,7 @@ Como Contribuir
 * Faça um fork desse repositório, clicando no botão [![Fork][14]][15], na parte superior direita da pagina do Github
 * Clone seu fork:
 
-    ``git clone --recursive https://github.com/SEU_USUARIO_DO_GITHUB/pythonclub.github.io.git``
+    ``git clone --depth 1 --recursive https://github.com/SEU_USUARIO_DO_GITHUB/pythonclub.github.io.git``
 
 * Instale os requirements ``pip install -r requirements.txt`` - se você não tiver o pip instalado, instale-o: https://pip.pypa.io/en/latest/installing.html#install-pip
 * Todas as publicações ficam na pasta ``content``, os textos podem ser escritos
@@ -80,16 +80,6 @@ Para finalizar o servidor use:
 
 ``./develop_server.sh stop``
 
-Futuras Publicações
--------------------
-
-Alguns dos contribuidores criaram o compromisso de publicar alguns artigos.
-
-Foi estabelecido um prazo maximo para a entrega dos artigos com o intuito de que o contribuidor realmente publique o artigo com o conteudo que ele mesmo definiu.
-
-Você pode ver a lista contendo os nomes dos artigos nesta planilha no [Google Drive][7].
-
-Quando tiver um assunto e uma data de entrega, adicione na planinha, ao finalizar o seu artigo, envie o pull request e atualize a planilha marcando que sua publicação já foi entregue.
 
 [0]: http://pythonclub.com.br/
 [1]: https://pages.github.com/
